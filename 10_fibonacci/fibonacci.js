@@ -1,7 +1,7 @@
 const fibonacci = function(index) {
 const fibo = [0, 1]
 if (index < 0) {
-    return "OOPS"
+    return "Enter positive number"
 } else {
 for (let i = 1; i < index; i++) {
 
